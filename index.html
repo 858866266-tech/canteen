@@ -185,6 +185,25 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
 .success-box{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:1px solid #a7f3d0;border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:#065f46;margin-bottom:16px}
 .warn-box{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fde68a;border-radius:var(--radius-sm);padding:12px 16px;font-size:13px;color:#92400e;margin-bottom:16px}
 
+/* data-info */
+.data-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:768px){.data-info-grid{grid-template-columns:1fr}}
+.data-info-item{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-sm);padding:14px 16px}
+.data-info-item .item-label{font-size:11px;font-weight:600;color:var(--gray-500);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;display:flex;align-items:center;gap:4px}
+.data-info-item .item-value{font-size:13px;color:var(--gray-800);word-break:break-all;line-height:1.6}
+.data-info-item .item-value code{background:#eef2ff;color:#4f46e5;padding:2px 6px;border-radius:4px;font-size:12px;font-family:'SF Mono',Monaco,Consolas,monospace}
+.data-info-item .item-value a{color:var(--primary);text-decoration:none;font-weight:500}
+.data-info-item .item-value a:hover{text-decoration:underline}
+.data-info-item .item-value .tag{display:inline-flex;align-items:center;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;margin-right:4px}
+.data-info-item .item-value .tag-ok{background:#ecfdf5;color:#059669;border:1px solid #bbf7d0}
+.data-info-item .item-value .tag-warn{background:#fffbeb;color:#d97706;border:1px solid #fde68a}
+.data-info-item .item-value .tag-err{background:#fef2f2;color:#dc2626;border:1px solid #fecaca}
+.data-info-flow{margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fefce8,#fef3c7);border:1px solid #fde68a;border-radius:var(--radius-sm)}
+.data-info-flow .flow-title{font-size:13px;font-weight:700;color:#92400e;margin-bottom:8px}
+.data-info-flow .flow-steps{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:#78350f}
+.data-info-flow .flow-step{background:white;border:1px solid #fde68a;border-radius:6px;padding:4px 10px;font-weight:500}
+.data-info-flow .flow-arrow{color:#d97706;font-weight:700}
+
 /* rec card */
 .rec-card{background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);padding:14px 16px;display:flex;align-items:flex-start;gap:12px;transition:var(--transition);cursor:pointer}
 .rec-card:hover{border-color:var(--primary);box-shadow:var(--shadow-md);transform:translateY(-1px)}
@@ -309,6 +328,32 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
   .two-col,.three-col{grid-template-columns:1fr}
   .nav-tab{padding:6px 10px;font-size:12px}
 }
+
+/* ═══ 菜品整理弹窗 ═══ */
+.detail-tab-bar{display:flex;gap:4px;border-bottom:2px solid var(--gray-100);margin-bottom:16px;padding-bottom:0}
+.detail-tab{padding:8px 14px;font-size:13px;font-weight:500;color:var(--gray-500);cursor:pointer;border:none;background:none;border-bottom:2px solid transparent;margin-bottom:-2px;transition:var(--transition)}
+.detail-tab:hover{color:var(--primary)}
+.detail-tab.active{color:var(--primary);border-bottom-color:var(--primary);font-weight:600}
+.detail-section{display:none}.detail-section.active{display:block}
+.detail-picker{display:flex;flex-wrap:wrap;gap:6px;max-height:130px;overflow-y:auto;border:1px solid var(--gray-200);border-radius:8px;padding:8px;margin-bottom:8px}
+.detail-picker-chip{display:inline-flex;align-items:center;padding:4px 10px;background:var(--gray-50);border:1px solid var(--gray-200);border-radius:20px;cursor:pointer;font-size:12px;user-select:none;transition:var(--transition)}
+.detail-picker-chip.selected{background:var(--primary-light);border-color:var(--primary);color:var(--primary)}
+.detail-ing-list{margin-top:8px}
+.detail-ing-row{display:flex;align-items:center;gap:8px;padding:6px 8px;border:1px solid var(--gray-100);border-radius:8px;margin-bottom:6px;background:var(--gray-50)}
+.detail-ing-row:hover{border-color:var(--gray-300);background:white}
+.detail-ing-name{flex:1;font-size:13px;font-weight:500;color:var(--gray-700);padding:0 4px}
+.detail-ing-qty{width:100px;padding:5px 10px;border:1.5px solid var(--gray-200);border-radius:6px;font-size:12px;font-family:var(--font)}
+.detail-ing-qty:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-glow)}
+.detail-ing-del{width:24px;height:24px;border:none;background:none;cursor:pointer;color:var(--gray-400);font-size:16px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:var(--transition);flex-shrink:0}
+.detail-ing-del:hover{color:var(--danger);background:var(--danger-light)}
+.detail-add-row{display:flex;gap:8px;align-items:center;margin-top:8px}
+.detail-add-input{flex:1;padding:8px 12px;border:1.5px solid var(--gray-200);border-radius:8px;font-size:13px;font-family:var(--font)}
+.detail-add-input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-glow)}
+.detail-method-area{width:100%;padding:12px;border:1.5px solid var(--gray-200);border-radius:8px;font-size:13px;font-family:var(--font);line-height:1.7;min-height:200px;resize:vertical}
+.detail-method-area:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-glow)}
+.detail-sync-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:8px;padding:16px;font-size:12px;color:var(--gray-600);line-height:1.8}
+.detail-sync-box code{background:var(--gray-100);padding:2px 6px;border-radius:4px;font-size:11px;color:var(--gray-700)}
+.detail-section-title{font-size:12px;font-weight:600;color:var(--gray-500);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;margin-top:4px}
 
 /* ═══ 向导弹窗 ═══ */
 .wizard-steps{display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:24px;padding:0 20px}
@@ -445,6 +490,7 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
             <button class="btn btn-primary btn-sm" onclick="openWizard()">📥 向导录入</button>
             <button class="btn btn-outline btn-sm" onclick="openDishModal()">+ 手动新增</button>
             <button class="btn btn-outline btn-sm" onclick="openImportModal()">📤 导入菜品</button>
+            <button class="btn btn-outline btn-sm" onclick="exportDishesJson()" title="导出 dishes.json 用于同步到 GitHub">⬇️ 导出 JSON</button>
           </div>
           <div style="display:flex;gap:6px;margin-top:10px">
             <button class="meal-tab active" data-meal="" onclick="filterDishByMeal(this,'')">🍽️ 全部</button>
@@ -681,6 +727,14 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
       <div class="card-header"><span class="card-title">🔄 重复检测（近4周）</span></div>
       <div class="card-body" id="statsRepeat"></div>
     </div>
+
+    <!-- 数据存储信息提醒 -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-header"><span class="card-title">💾 数据存储信息</span>
+        <button class="btn btn-xs btn-outline" onclick="refreshDataInfo()" title="刷新">🔄 刷新</button>
+      </div>
+      <div class="card-body" id="statsDataInfo"></div>
+    </div>
   </div>
 
 </div>
@@ -740,6 +794,85 @@ input:checked+.toggle-slider:before{transform:translateX(18px)}
     <div class="modal-footer">
       <button class="btn btn-outline" onclick="closeDishModal()">取消</button>
       <button class="btn btn-primary" onclick="saveDish()">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- 菜品整理 Modal -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="modal-overlay" id="dishDetailModal">
+  <div class="modal" style="max-width:720px">
+    <div class="modal-header">
+      <span class="modal-title" id="dishDetailTitle">📋 菜品整理</span>
+      <button class="modal-close" onclick="closeDishDetailModal()">×</button>
+    </div>
+    <div class="modal-body">
+      <!-- 标签栏 -->
+      <div class="detail-tab-bar">
+        <button class="detail-tab active" onclick="switchDetailTab('ing',this)">🥩 主料与用量</button>
+        <button class="detail-tab" onclick="switchDetailTab('season',this)">🧂 配料调料</button>
+        <button class="detail-tab" onclick="switchDetailTab('method',this)">📝 制作方法</button>
+        <button class="detail-tab" onclick="switchDetailTab('export',this)">💾 导出/导入</button>
+      </div>
+
+      <!-- 标签1：主料 -->
+      <div class="detail-section active" id="detailSectionIng">
+        <div class="detail-section-title">从食材库选择（点击添加）</div>
+        <div id="detailIngPicker" class="detail-picker"></div>
+        <div class="detail-add-row">
+          <input class="detail-add-input" id="detailIngInput" placeholder="手动输入新食材名…" onkeydown="if(event.key==='Enter')addDetailIngRow('ing')">
+          <button class="btn btn-primary btn-sm" onclick="addDetailIngRow('ing')">+ 添加</button>
+        </div>
+        <div class="detail-section-title" style="margin-top:14px">已添加主料（填写用量）</div>
+        <div id="detailIngList" class="detail-ing-list"></div>
+      </div>
+
+      <!-- 标签2：配料调料 -->
+      <div class="detail-section" id="detailSectionSeason">
+        <div class="detail-section-title">从食材库选择调料/配菜（点击添加）</div>
+        <div id="detailSeasonPicker" class="detail-picker"></div>
+        <div class="detail-add-row">
+          <input class="detail-add-input" id="detailSeasonInput" placeholder="手动输入调料名…" onkeydown="if(event.key==='Enter')addDetailIngRow('season')">
+          <button class="btn btn-primary btn-sm" onclick="addDetailIngRow('season')">+ 添加</button>
+        </div>
+        <div class="detail-section-title" style="margin-top:14px">已添加配料（填写用量）</div>
+        <div id="detailSeasonList" class="detail-ing-list"></div>
+      </div>
+
+      <!-- 标签3：制作方法 -->
+      <div class="detail-section" id="detailSectionMethod">
+        <div class="detail-section-title">制作步骤</div>
+        <textarea class="detail-method-area" id="detailMethodText"
+          placeholder="请输入制作步骤，例如：&#10;1. 食材处理：…&#10;2. 调制腌料：…&#10;3. 烹饪步骤：…&#10;4. 出锅摆盘：…"></textarea>
+        <div style="font-size:11px;color:var(--gray-400);margin-top:6px">建议按步骤编号录入，便于厨师参考</div>
+      </div>
+
+      <!-- 标签4：导出/导入 -->
+      <div class="detail-section" id="detailSectionExport">
+        <div class="detail-section-title">持久化到 GitHub</div>
+        <div class="detail-sync-box">
+          <p style="margin-bottom:10px">由于 GitHub Pages 是静态网站，无法服务端写文件。整理完成后，请按以下步骤同步：</p>
+          <p>① 点击下方「导出 dishes.json」—— 保存包含所有菜品整理数据的文件</p>
+          <p>② 用下载的文件替换仓库中 <code>canteen-menu-data/dishes.json</code></p>
+          <p>③ 执行 <code>git add . && git commit -m "更新菜品数据" && git push</code></p>
+          <p>④ 部署地址：<a href="https://858866266-tech.github.io/canteen/" target="_blank" style="color:var(--primary)">https://858866266-tech.github.io/canteen/</a></p>
+        </div>
+        <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap">
+          <button class="btn btn-success" onclick="exportDishesJson()">📥 导出 dishes.json</button>
+          <label class="btn btn-outline" style="cursor:pointer">
+            📤 导入 dishes.json
+            <input type="file" accept=".json" style="display:none" onchange="importDishesJson(this)">
+          </label>
+        </div>
+        <div style="margin-top:16px;padding:12px;background:var(--warning-light);border-radius:8px;font-size:12px;color:var(--warning)">
+          ⚠️ 导入会按 id 合并更新，id 不存在的菜品会新增，已存在的会覆盖整理字段（主料/配料/制作方法）。原有调度、统计数据不受影响。
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="closeDishDetailModal()">关闭</button>
+      <button class="btn btn-primary" id="dishDetailSaveBtn" onclick="saveDishDetail()">💾 保存整理</button>
     </div>
   </div>
 </div>
@@ -898,7 +1031,7 @@ const ING_CAT_LABELS={meat:'🥩 肉类',veg:'🥬 蔬菜',soup_stuff:'🍲 汤�
 const ING_CAT_BADGE={meat:'badge-red',veg:'badge-green',soup_stuff:'badge-blue',staple:'badge-yellow',seasoning:'badge-orange',condiment:'badge-purple'};
 
 // 文件路径（相对HTML文件所在目录）
-function getDataPath(name){return `data/${name}.json`}
+function getDataPath(name){return `canteen-menu-data/${name}.json`}
 
 // 数据状态
 let dishes=[];
@@ -934,9 +1067,13 @@ const DEFAULT_INGREDIENTS=[
   {id:'m016',name:'贝类',cat:'meat',unit:'斤',note:'蚝/螺'},
   {id:'m017',name:'牛肉丸',cat:'meat',unit:'斤',note:''},
   {id:'m018',name:'鱼丸',cat:'meat',unit:'斤',note:''},
+  {id:'m019',name:'鸡脚',cat:'meat',unit:'斤',note:'鸡爪'},
+  {id:'m020',name:'鸽子',cat:'meat',unit:'只',note:'白鸽/老鸽'},
+  {id:'m021',name:'羊肉',cat:'meat',unit:'斤',note:'羊肉/羊排'},
   // 蔬菜类
   {id:'v001',name:'白菜',cat:'veg',unit:'斤',note:'大白菜/小白菜'},
   {id:'v002',name:'菜心',cat:'veg',unit:'斤',note:''},
+  {id:'v002b',name:'油麦菜',cat:'veg',unit:'斤',note:'莜麦菜'},
   {id:'v003',name:'芥菜',cat:'veg',unit:'斤',note:'大芥菜'},
   {id:'v004',name:'生菜',cat:'veg',unit:'斤',note:''},
   {id:'v005',name:'菠菜',cat:'veg',unit:'斤',note:''},
@@ -975,6 +1112,9 @@ const DEFAULT_INGREDIENTS=[
   {id:'v038',name:'四季豆',cat:'veg',unit:'斤',note:'玉豆'},
   {id:'v039',name:'豆角',cat:'veg',unit:'斤',note:'豇豆'},
   {id:'v040',name:'玉米',cat:'veg',unit:'根',note:'甜玉米'},
+  {id:'v041',name:'紫菜',cat:'veg',unit:'包',note:'干紫菜'},
+  {id:'v042',name:'番薯',cat:'veg',unit:'斤',note:'红薯/地瓜'},
+  {id:'v043',name:'芋头',cat:'veg',unit:'斤',note:'荔浦芋/毛芋'},
   // 汤料药材
   {id:'s001',name:'枸杞',cat:'soup_stuff',unit:'两',note:''},
   {id:'s002',name:'红枣',cat:'soup_stuff',unit:'两',note:''},
@@ -984,6 +1124,10 @@ const DEFAULT_INGREDIENTS=[
   {id:'s006',name:'茨实',cat:'soup_stuff',unit:'两',note:'芡实'},
   {id:'s007',name:'淮山',cat:'soup_stuff',unit:'两',note:'山药'},
   {id:'s008',name:'薏米',cat:'soup_stuff',unit:'两',note:'薏仁'},
+  {id:'s008b',name:'板栗',cat:'soup_stuff',unit:'斤',note:'栗子'},
+  {id:'s008c',name:'黑豆',cat:'soup_stuff',unit:'斤',note:'黑大豆'},
+  {id:'s008d',name:'花生',cat:'soup_stuff',unit:'斤',note:'花生仁'},
+  {id:'s008e',name:'胡椒',cat:'soup_stuff',unit:'两',note:'白胡椒粒/粉'},
   {id:'s009',name:'玉竹',cat:'soup_stuff',unit:'两',note:''},
   {id:'s010',name:'沙参',cat:'soup_stuff',unit:'两',note:''},
   {id:'s011',name:'当归',cat:'soup_stuff',unit:'两',note:''},
@@ -1000,7 +1144,8 @@ const DEFAULT_INGREDIENTS=[
   {id:'st003',name:'粉丝',cat:'staple',unit:'把',note:'米粉'},
   {id:'st004',name:'河粉',cat:'staple',unit:'斤',note:'沙河粉'},
   {id:'st005',name:'饺子皮',cat:'staple',unit:'斤',note:''},
-  {id:'st006',name:'馒头',cat:'staple',unit:'个',note:''},
+  {id:'st006',name:'馄饨皮',cat:'staple',unit:'斤',note:'云吞皮'},
+  {id:'st007',name:'馒头',cat:'staple',unit:'个',note:''},
   {id:'st007',name:'面粉',cat:'staple',unit:'斤',note:''},
   // 调味料
   {id:'t001',name:'盐',cat:'seasoning',unit:'包',note:'精盐'},
@@ -1623,7 +1768,7 @@ function renderDishList(){
       <td>${d.required?'<span class="badge badge-yellow">⭐必吃</span>':'<span style="color:var(--gray-300)">—</span>'}</td>
       <td style="color:var(--gray-500);font-size:12px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${d.ingredients||'—'}">${d.ingredients||'—'}</td>
       <td><span class="badge badge-gray">${d.count||0}次</span></td>
-      <td><button class="btn btn-outline btn-xs" onclick="openDishModal('${d.id}')">编辑</button> <button class="btn btn-danger btn-xs" onclick="deleteDish('${d.id}')">删除</button></td>
+      <td><button class="btn btn-outline btn-xs" onclick="openDishModal('${d.id}')">编辑</button> <button class="btn btn-outline btn-xs" onclick="openDishDetailModal('${d.id}')" title="整理食材、配料与制作方法">📋 整理</button> <button class="btn btn-danger btn-xs" onclick="deleteDish('${d.id}')">删除</button></td>
     </tr>`;
   });
   document.getElementById('dishTbody').innerHTML=html;
@@ -1804,6 +1949,203 @@ function saveDish(){
   }
   saveData(); closeDishModal(); renderDishList();
 }
+// ═══════════════════════════════════════════
+//  菜品整理功能
+// ═══════════════════════════════════════════
+let _detailDishId=null;
+
+function openDishDetailModal(id){
+  const dish=dishes.find(x=>x.id===id);
+  if(!dish){toast('菜品不存在');return;}
+  _detailDishId=id;
+  document.getElementById('dishDetailTitle').textContent=`📋 菜品整理 — ${dish.name}`;
+
+  // 渲染主料 picker（食材库中的肉类/蔬菜/汤料/主食）
+  renderDetailPicker('ing', dish.ingredientDetails||[]);
+  // 渲染配料 picker（食材库中的调味料/配菜）
+  renderDetailPicker('season', dish.seasoningDetails||[]);
+  // 制作方法
+  document.getElementById('detailMethodText').value=dish.method||'';
+
+  // 默认切到第一个 tab
+  switchDetailTab('ing', document.querySelector('.detail-tab'));
+  document.getElementById('dishDetailModal').classList.add('open');
+}
+
+function closeDishDetailModal(){
+  document.getElementById('dishDetailModal').classList.remove('open');
+  _detailDishId=null;
+}
+
+function switchDetailTab(tab, btn){
+  document.querySelectorAll('.detail-section').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.detail-tab').forEach(b=>b.classList.remove('active'));
+  const sectionMap={ing:'detailSectionIng',season:'detailSectionSeason',method:'detailSectionMethod',export:'detailSectionExport'};
+  const el=document.getElementById(sectionMap[tab]);
+  if(el) el.classList.add('active');
+  if(btn) btn.classList.add('active');
+  // 导出页不需要保存按钮
+  document.getElementById('dishDetailSaveBtn').style.display=(tab==='export')?'none':'';
+}
+
+function renderDetailPicker(type, currentDetails){
+  const pickerId=type==='ing'?'detailIngPicker':'detailSeasonPicker';
+  const listId=type==='ing'?'detailIngList':'detailSeasonList';
+  const picker=document.getElementById(pickerId);
+  const currentNames=currentDetails.map(d=>d.name);
+
+  // 过滤食材库：主料用肉/菜/汤料/主食；配料用调味料/配菜
+  const ingCats=type==='ing'?['meat','veg','soup_stuff','staple']:['seasoning','condiment'];
+  const candidates=ingredientDB.filter(i=>ingCats.includes(i.cat));
+
+  let html='';
+  candidates.forEach(ing=>{
+    const sel=currentNames.includes(ing.name);
+    html+=`<span class="detail-picker-chip ${sel?'selected':''}" onclick="toggleDetailPicker(this,'${type}','${ing.name.replace(/'/g,"\\'")}')">
+      ${sel?'✓ ':''}<span>${ing.name}</span>
+    </span>`;
+  });
+  if(!candidates.length) html=`<span style="color:var(--gray-400);font-size:12px">食材库暂无${type==='ing'?'主料':'调料'}，可手动输入</span>`;
+  picker.innerHTML=html;
+
+  // 渲染已选列表
+  renderDetailIngList(type, currentDetails);
+}
+
+function toggleDetailPicker(chipEl, type, name){
+  const listId=type==='ing'?'detailIngList':'detailSeasonList';
+  const listEl=document.getElementById(listId);
+  // 检查是否已在列表中
+  const existing=[...listEl.querySelectorAll('.detail-ing-row')].find(r=>r.dataset.name===name);
+  if(existing){
+    existing.remove();
+    chipEl.classList.remove('selected');
+    chipEl.innerHTML=`<span>${name}</span>`;
+  }else{
+    chipEl.classList.add('selected');
+    chipEl.innerHTML=`✓ <span>${name}</span>`;
+    appendDetailIngRow(type, name, '');
+  }
+}
+
+function renderDetailIngList(type, details){
+  const listId=type==='ing'?'detailIngList':'detailSeasonList';
+  const listEl=document.getElementById(listId);
+  listEl.innerHTML='';
+  details.forEach(d=>appendDetailIngRow(type, d.name, d.qty||''));
+}
+
+function appendDetailIngRow(type, name, qty){
+  const listId=type==='ing'?'detailIngList':'detailSeasonList';
+  const listEl=document.getElementById(listId);
+  const row=document.createElement('div');
+  row.className='detail-ing-row';
+  row.dataset.name=name;
+  row.dataset.type=type;
+  row.innerHTML=`<span class="detail-ing-name">${name}</span>
+    <input class="detail-ing-qty" placeholder="用量，如：2斤" value="${qty}" title="填写用量">
+    <button class="detail-ing-del" onclick="removeDetailIngRow(this,'${type}','${name.replace(/'/g,"\\'")}')">✕</button>`;
+  listEl.appendChild(row);
+}
+
+function removeDetailIngRow(btn, type, name){
+  const row=btn.closest('.detail-ing-row');
+  if(row) row.remove();
+  // 同步取消 picker 选中状态
+  const pickerId=type==='ing'?'detailIngPicker':'detailSeasonPicker';
+  const chip=[...document.querySelectorAll(`#${pickerId} .detail-picker-chip`)].find(c=>c.textContent.replace('✓ ','').trim()===name);
+  if(chip){chip.classList.remove('selected');chip.innerHTML=`<span>${name}</span>`;}
+}
+
+function addDetailIngRow(type){
+  const inputId=type==='ing'?'detailIngInput':'detailSeasonInput';
+  const input=document.getElementById(inputId);
+  const name=input.value.trim();
+  if(!name){toast('请输入食材/调料名称');return;}
+  // 检查是否已存在
+  const listId=type==='ing'?'detailIngList':'detailSeasonList';
+  const exists=[...document.querySelectorAll(`#${listId} .detail-ing-row`)].some(r=>r.dataset.name===name);
+  if(exists){toast(`「${name}」已在列表中`);input.value='';return;}
+  // 如果食材库中没有，自动新增
+  if(!ingredientDB.find(i=>i.name===name)){
+    const cat=type==='ing'?'meat':'seasoning';
+    ingredientDB.push({id:'ing_'+Date.now()+'_'+Math.random().toString(36).slice(2,5),name,cat,unit:'',note:'整理录入'});
+  }
+  appendDetailIngRow(type, name, '');
+  input.value='';
+}
+
+function getDetailRows(listId){
+  return [...document.querySelectorAll(`#${listId} .detail-ing-row`)].map(r=>({
+    name:r.dataset.name,
+    qty:r.querySelector('.detail-ing-qty').value.trim()
+  }));
+}
+
+function saveDishDetail(){
+  if(!_detailDishId){toast('未选中菜品');return;}
+  const dish=dishes.find(x=>x.id===_detailDishId);
+  if(!dish){toast('菜品不存在');return;}
+
+  const ingDetails=getDetailRows('detailIngList');
+  const seasonDetails=getDetailRows('detailSeasonList');
+  const method=document.getElementById('detailMethodText').value.trim();
+
+  // 更新 dish 对象
+  dish.ingredientDetails=ingDetails;
+  dish.seasoningDetails=seasonDetails;
+  dish.method=method;
+  // 同步更新 ingredients / seasonings 字段（逗号分隔）
+  if(ingDetails.length>0) dish.ingredients=ingDetails.map(d=>d.name).join(',');
+  dish.seasonings=seasonDetails.map(d=>d.name).join(',');
+
+  saveData();
+  toast(`✅ 已保存「${dish.name}」的整理数据`);
+  renderDishList();
+}
+
+function exportDishesJson(){
+  const today=new Date().toLocaleDateString('zh-CN').replace(/\//g,'-');
+  downloadFile(dishes, `dishes_${today}.json`);
+  toast('✅ dishes.json 已导出，请替换仓库文件后推送到 GitHub');
+}
+
+function importDishesJson(input){
+  const file=input.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=e=>{
+    try{
+      const data=JSON.parse(e.target.result);
+      if(!Array.isArray(data)){toast('❌ 文件格式错误，应为数组');return;}
+      let added=0,updated=0;
+      data.forEach(d=>{
+        if(!d.id||!d.name)return;
+        const idx=dishes.findIndex(x=>x.id===d.id);
+        if(idx>=0){
+          // 只更新整理相关字段，保留调度/统计等运营数据
+          dishes[idx].ingredientDetails=d.ingredientDetails||dishes[idx].ingredientDetails||[];
+          dishes[idx].seasoningDetails=d.seasoningDetails||dishes[idx].seasoningDetails||[];
+          dishes[idx].seasonings=d.seasonings||dishes[idx].seasonings||'';
+          dishes[idx].method=d.method||dishes[idx].method||'';
+          if(d.ingredients) dishes[idx].ingredients=d.ingredients;
+          updated++;
+        }else{
+          dishes.push(d);
+          added++;
+        }
+      });
+      saveData();
+      renderDishList();
+      toast(`✅ 导入完成：${updated} 道菜已更新，${added} 道新菜已添加`);
+    }catch(err){
+      toast('❌ 解析失败：'+err.message);
+    }
+    input.value='';
+  };
+  reader.readAsText(file);
+}
+
 function deleteDish(id){
   showConfirm('确认删除','删除后将从菜品库和历史菜谱中移除该菜品？',()=>{
     const dish=dishes.find(x=>x.id===id);
@@ -2709,6 +3051,140 @@ function renderStats(){
       <span style="font-size:12px;color:var(--gray-500)">${ws.join('、')}</span>
     </div>`).join('');
   document.getElementById('statsRepeat').innerHTML=rh;
+
+  // 渲染数据存储信息
+  renderDataInfo();
+}
+
+// ═══════════════════════════════════════════
+//  数据存储信息（统计分析页）
+// ═══════════════════════════════════════════
+function renderDataInfo(){
+  const el=document.getElementById('statsDataInfo');
+  if(!el)return;
+
+  // 统计各数据规模
+  const dishCount=dishes.length;
+  const ingCount=ingredientDB.length;
+  const weekCount=Object.keys(weekMenus).length;
+  const extraCount=Object.keys(extraPurchase).length;
+
+  // 检查菜品整理完成度
+  const detailedCount=dishes.filter(d=>d.ingredientDetails&&d.ingredientDetails.length>0).length;
+  const methodCount=dishes.filter(d=>d.method&&d.method.trim()).length;
+
+  // 检查 localStorage 数据大小
+  let lsSizeStr='未知';
+  try{
+    const raw=localStorage.getItem('canteen_v2')||'';
+    const bytes=new Blob([raw]).size;
+    lsSizeStr=bytes<1024?bytes+' B':bytes<1048576?(bytes/1024).toFixed(1)+' KB':(bytes/1048576).toFixed(2)+' MB';
+  }catch(e){}
+
+  // 最后保存时间
+  let saveTimeStr='尚未保存';
+  if(_lastSaveTime){
+    const t=_lastSaveTime;
+    saveTimeStr=`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')} ${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')}:${String(t.getSeconds()).padStart(2,'0')}`;
+  }
+
+  // 脏数据检查
+  const dirtyTag=_dirtyFlag?'<span class="tag tag-warn">⚠ 有未保存修改</span>':'<span class="tag tag-ok">✓ 已同步</span>';
+
+  // 整理完成度
+  const detailPercent=dishCount?Math.round(detailedCount/dishCount*100):0;
+  const methodPercent=dishCount?Math.round(methodCount/dishCount*100):0;
+
+  const SITE_URL='https://858866266-tech.github.io/canteen/';
+  const REPO_URL='https://github.com/858866266-tech/canteen.git';
+
+  el.innerHTML=`
+    <div class="data-info-grid">
+      <div class="data-info-item">
+        <div class="item-label">📦 数据文件位置</div>
+        <div class="item-value">
+          <div style="margin-bottom:4px"><code>canteen-menu-data/dishes.json</code> — 菜品数据</div>
+          <div style="margin-bottom:4px"><code>canteen-menu-data/weekMenus.json</code> — 周菜单</div>
+          <div style="margin-bottom:4px"><code>canteen-menu-data/extraPurchase.json</code> — 采购数据</div>
+          <div><code>canteen-menu-data/recommendations.json</code> — 推荐数据</div>
+        </div>
+      </div>
+
+      <div class="data-info-item">
+        <div class="item-label">🌐 站点与仓库</div>
+        <div class="item-value">
+          <div style="margin-bottom:6px">站点：<a href="${SITE_URL}" target="_blank">${SITE_URL}</a></div>
+          <div>仓库：<a href="${REPO_URL}" target="_blank">${REPO_URL}</a></div>
+        </div>
+      </div>
+
+      <div class="data-info-item">
+        <div class="item-label">📊 当前数据规模</div>
+        <div class="item-value">
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px">
+            <span class="tag tag-ok">${dishCount} 道菜品</span>
+            <span class="tag tag-ok">${ingCount} 种食材</span>
+            <span class="tag tag-ok">${weekCount} 周菜谱</span>
+            <span class="tag tag-ok">${extraCount} 条采购</span>
+          </div>
+          <div style="font-size:12px;color:var(--gray-500)">
+            localStorage 占用：<code>${lsSizeStr}</code> ${dirtyTag}
+          </div>
+        </div>
+      </div>
+
+      <div class="data-info-item">
+        <div class="item-label">📋 菜品整理进度</div>
+        <div class="item-value">
+          <div style="margin-bottom:6px">
+            <span style="font-size:12px;color:var(--gray-500)">食材用量已填：</span>
+            <strong>${detailedCount}/${dishCount}</strong>
+            <span style="font-size:12px;color:var(--gray-400)">(${detailPercent}%)</span>
+          </div>
+          <div class="progress-bar" style="height:8px;margin-bottom:8px">
+            <div class="progress-fill" style="width:${detailPercent}%;background:linear-gradient(90deg,#059669,#34d399)"></div>
+          </div>
+          <div>
+            <span style="font-size:12px;color:var(--gray-500)">制作方法已填：</span>
+            <strong>${methodCount}/${dishCount}</strong>
+            <span style="font-size:12px;color:var(--gray-400)">(${methodPercent}%)</span>
+          </div>
+          <div class="progress-bar" style="height:8px;margin-top:4px">
+            <div class="progress-fill" style="width:${methodPercent}%;background:linear-gradient(90deg,#4f46e5,#7c3aed)"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-info-item" style="grid-column:1/-1">
+        <div class="item-label">💾 最近保存</div>
+        <div class="item-value">${saveTimeStr}</div>
+      </div>
+    </div>
+
+    <div class="data-info-flow">
+      <div class="flow-title">⚡ 持久化提醒：浏览器数据 → GitHub 同步</div>
+      <div class="flow-steps">
+        <span class="flow-step">① 页面编辑菜品</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-step">② 自动存入 localStorage</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-step">③ 导出 dishes.json</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-step">④ 替换仓库文件</span>
+        <span class="flow-arrow">→</span>
+        <span class="flow-step">⑤ git push</span>
+      </div>
+      <div style="margin-top:8px;font-size:12px;color:#92400e">
+        💡 <strong>重要：</strong>浏览器数据仅在当前设备当前浏览器有效，清除缓存会丢失！请定期导出并同步到 GitHub 仓库。
+        <a href="javascript:void(0)" onclick="exportDishesJson()" style="margin-left:6px;text-decoration:underline">立即导出 →</a>
+      </div>
+    </div>
+  `;
+}
+
+function refreshDataInfo(){
+  renderDataInfo();
+  toast('✅ 数据信息已刷新');
 }
 
 // ═══════════════════════════════════════════
@@ -3224,14 +3700,37 @@ async function init(){
     }
   } catch {}
 
-  // 首次打开：菜品库和食材库均为空，引导用户通过向导录入
-  // 如果是旧版本升级（localStorage 有数据但无向导标记），清空后重新开始
+  // 步骤1.5：localStorage 无数据时，从 JSON 文件加载
+  if (!hasUserDishes) {
+    try {
+      const fileDishes = await loadJSON('dishes', []);
+      if (fileDishes.length > 0) {
+        dishes = fileDishes;
+        hasUserDishes = true;
+      }
+      const fileWeekMenus = await loadJSON('weekMenus', {});
+      if (Object.keys(fileWeekMenus).length > 0) weekMenus = fileWeekMenus;
+      const fileExtra = await loadJSON('extraPurchase', {});
+      if (Object.keys(fileExtra).length > 0) extraPurchase = fileExtra;
+    } catch {}
+  }
+
+  // 首次打开且文件也无数据：空库，引导用户通过向导录入
   const WIZARD_VERSION = 2;
   let wizVersion = parseInt(localStorage.getItem('canteen_wiz_ver') || '0');
   if (!hasUserDishes || wizVersion < WIZARD_VERSION) {
-    dishes = [];
-    ingredientDB = [];
+    if (!hasUserDishes) {
+      // 真正首次：清空
+      dishes = [];
+      ingredientDB = [];
+    }
     localStorage.setItem('canteen_wiz_ver', WIZARD_VERSION);
+    saveData();
+  }
+
+  // 食材库为空时，用默认食材库填充（确保菜品整理功能可用）
+  if (ingredientDB.length === 0) {
+    ingredientDB = JSON.parse(JSON.stringify(DEFAULT_INGREDIENTS));
     saveData();
   }
 

@@ -1,0 +1,27 @@
+{
+  "source": "网络公开数据（高州十大名菜/大众点评/本地美食排行）",
+  "lastUpdated": "2026-04-24",
+  "note": "以下菜品为茂名高州市公开美食排行推荐，可一键导入菜品库",
+  "dishes": [
+    {"id":"rec001","name":"高州盐焗鸡","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸡,盐,姜,葱","qty":"1只(约2斤)","required":false,"note":"高州十大名菜，皮脆肉嫩","count":0,"source":"高州十大名菜","sourceRank":1},
+    {"id":"rec002","name":"曹江头菜蒸扣肉","cat":"meat","meals":["lunch","dinner"],"ingredients":"五花肉,头菜,姜,蒜","qty":"2斤","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":2},
+    {"id":"rec003","name":"高州杏花村猪手","cat":"meat","meals":["lunch","dinner"],"ingredients":"猪手,姜,蒜,柱侯酱","qty":"2斤","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":3},
+    {"id":"rec004","name":"高佬牛杂","cat":"meat","meals":["lunch","dinner"],"ingredients":"牛杂,姜,葱,柱侯酱","qty":"3斤","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":4},
+    {"id":"rec005","name":"高州猪红","cat":"meat","meals":["lunch","dinner"],"ingredients":"猪血,姜,葱,胡椒","qty":"2斤","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":5},
+    {"id":"rec006","name":"玉湖鱼头蒸天麻","cat":"meat","meals":["lunch","dinner"],"ingredients":"鱼头,天麻,姜,葱","qty":"1个(约2斤)","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":6},
+    {"id":"rec007","name":"陈皮鸡翅","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸡翅,陈皮,姜,酱油","qty":"20只","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":7},
+    {"id":"rec008","name":"山姜焗鸭","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸭,山姜,姜,葱","qty":"1只","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":8},
+    {"id":"rec009","name":"地胆头鸬鸭汤","cat":"soup","meals":["lunch","dinner"],"ingredients":"鸬鸭,地胆头,姜,盐","qty":"1只鸬鸭,地胆头30g","required":false,"note":"高州十大名菜·汤","count":0,"source":"高州十大名菜","sourceRank":9},
+    {"id":"rec010","name":"高州特色狗煲","cat":"meat","meals":["dinner"],"ingredients":"狗肉,姜,蒜,腐乳","qty":"3斤","required":false,"note":"高州十大名菜","count":0,"source":"高州十大名菜","sourceRank":10},
+    {"id":"rec011","name":"薯包籺","cat":"staple","meals":["breakfast","lunch"],"ingredients":"薯粉,猪肉,花生,香菇,酱油","qty":"30个","required":false,"note":"高州百年传统小吃","count":0,"source":"高州传统小吃","sourceRank":1},
+    {"id":"rec012","name":"金水田螺","cat":"meat","meals":["lunch","dinner"],"ingredients":"田螺,紫苏,姜,蒜,辣椒","qty":"3斤","required":false,"note":"高州经典宵夜","count":0,"source":"高州传统小吃","sourceRank":2},
+    {"id":"rec013","name":"高州特色鱼丸","cat":"meat","meals":["lunch","dinner"],"ingredients":"鲜鱼,盐,淀粉,姜","qty":"2斤","required":false,"note":"高州鱼丸鲜嫩弹牙","count":0,"source":"高州特色美食","sourceRank":1},
+    {"id":"rec014","name":"化州香油鸡","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸡,香油,姜,葱,酱油","qty":"1只","required":false,"note":"茂名名菜","count":0,"source":"茂名名菜","sourceRank":3},
+    {"id":"rec015","name":"隔水蒸鸡","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸡,姜,葱,盐","qty":"1只","required":false,"note":"茂名十大名菜","count":0,"source":"茂名十大名菜","sourceRank":1},
+    {"id":"rec016","name":"酸甜咕噜肉","cat":"meat","meals":["lunch","dinner"],"ingredients":"猪肉,糖,醋,番茄酱,淀粉","qty":"2斤","required":false,"note":"经典粤菜","count":0,"source":"常见粤菜","sourceRank":1},
+    {"id":"rec017","name":"炒米粉","cat":"staple","meals":["breakfast","lunch","dinner"],"ingredients":"米粉,豆芽,葱,酱油","qty":"3斤","required":false,"note":"高州常见主食","count":0,"source":"高州主食","sourceRank":1},
+    {"id":"rec018","name":"白切鸡","cat":"meat","meals":["lunch","dinner"],"ingredients":"鸡,姜,葱,酱油","qty":"1只","required":false,"note":"粤菜经典","count":0,"source":"粤菜经典","sourceRank":1},
+    {"id":"rec019","name":"红烧肉","cat":"meat","meals":["lunch","dinner"],"ingredients":"五花肉,酱油,糖,料酒","qty":"2斤","required":false,"note":"家常经典","count":0,"source":"家常菜","sourceRank":1},
+    {"id":"rec020","name":"番茄炒蛋","cat":"veg","meals":["lunch","dinner"],"ingredients":"西红柿,鸡蛋,糖,盐","qty":"4个蛋","required":false,"note":"家常快手菜","count":0,"source":"家常菜","sourceRank":2}
+  ]
+}

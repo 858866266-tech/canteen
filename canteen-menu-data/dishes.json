@@ -1,0 +1,2910 @@
+[
+  {
+    "id": "hist029",
+    "name": "扇骨药材汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,枸杞,红枣,淮山,茨实",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist008",
+    "name": "椰子鸡汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,椰子",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist034",
+    "name": "牛肉当归汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,当归,枸杞",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist032",
+    "name": "猪手醋汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪手,鸡蛋,米醋,糖",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist035",
+    "name": "猪肉猪杂枸杞叶汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,猪杂,枸杞叶",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist014",
+    "name": "猪肚鸡汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肚,鸡肉,胡椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist020",
+    "name": "白鸽瘦肉汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸽子,猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist012",
+    "name": "竹丝鸡熟地汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,生地,红枣",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist038",
+    "name": "紫菜蛋花汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "紫菜,鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist039",
+    "name": "紫菜鸡蛋汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "紫菜,鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist033",
+    "name": "羊肉汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "羊肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist013",
+    "name": "胡椒猪肚鸡汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肚,鸡肉,胡椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist050",
+    "name": "花生黄豆鸡脚",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡脚,花生",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist015",
+    "name": "阉鸡（五花腩）药材汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,猪肉,当归,党参,北芪",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist017",
+    "name": "阉鸡（板栗）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,板栗",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist016",
+    "name": "阉鸡（药材）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,当归,党参,北芪,红枣",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist030",
+    "name": "雄鱼头汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist031",
+    "name": "雄鱼头汤（川穹白芷）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist025",
+    "name": "骨头土茯苓薏米汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,土茯苓,薏米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist027",
+    "name": "骨头巴戟杜仲汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist023",
+    "name": "骨头深薯汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist028",
+    "name": "骨头牛大力黑豆汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,黑豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist022",
+    "name": "骨头祛湿汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,薏米,茨实,淮山",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist024",
+    "name": "骨头药材汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,当归,党参,枸杞",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist021",
+    "name": "骨头莲藕汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,莲藕",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist026",
+    "name": "骨头黑豆汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,黑豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist037",
+    "name": "骨底瘦肉猪杂冬瓜汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,猪肉,猪杂,冬瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist036",
+    "name": "骨底瘦肉猪杂枸杞叶汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪骨,猪肉,猪杂,枸杞叶",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist001",
+    "name": "鸡汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist006",
+    "name": "鸡汤放深薯",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist007",
+    "name": "鸡汤放黄花菜",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist004",
+    "name": "鸡汤（五花腩，板栗）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,猪肉,板栗",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist005",
+    "name": "鸡汤（五花腩，核桃）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist003",
+    "name": "鸡汤（五花腩，药材）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,猪肉,当归,党参",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist002",
+    "name": "鸡汤（板栗）",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,板栗",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist040",
+    "name": "鸡蛋丝瓜汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,青瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist043",
+    "name": "鸡蛋紫菜汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,紫菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist041",
+    "name": "鸡蛋裙带菜汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist042",
+    "name": "鸡蛋麦菜汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist009",
+    "name": "鸡项椰子汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,椰子",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist010",
+    "name": "鸡项猪肚汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,猪肚",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist011",
+    "name": "鸡项药材汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,当归,党参,枸杞",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist018",
+    "name": "鸽子瘦肉汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸽子,猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist019",
+    "name": "鸽子瘦肉药材汤",
+    "cat": "soup",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸽子,猪肉,当归,枸杞",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist066",
+    "name": "丝瓜炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,青瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist069",
+    "name": "口蘑炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist088",
+    "name": "咖喱土豆牛肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,土豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist109",
+    "name": "咖喱黄金鱼蛋",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼丸",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist092",
+    "name": "土豆炒牛肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,土豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist068",
+    "name": "土豆炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,土豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist185",
+    "name": "墨鱼饼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist085",
+    "name": "尖椒炒猪耳朵",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪杂,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist113",
+    "name": "尖椒炒鸡爪",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡脚,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist112",
+    "name": "尖椒炒鸡肾",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist070",
+    "name": "平菇炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,平菇",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist186",
+    "name": "柠檬鸡爪",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡脚",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist111",
+    "name": "椒盐雄鱼肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist057",
+    "name": "沙姜焗猪手",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪手",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist051",
+    "name": "沙姜蒜子炒鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist052",
+    "name": "沙姜蒜子生蒜炒鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist053",
+    "name": "沙姜蒜子葱炒鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉,葱",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist054",
+    "name": "沙姜鸡爪",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡脚",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist062",
+    "name": "炒年例鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist060",
+    "name": "炸鸡中翅",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist076",
+    "name": "焖鲩鱼腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist059",
+    "name": "焗猪手",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪手",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist058",
+    "name": "焗鸡脚",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡脚",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist107",
+    "name": "煎仓鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist105",
+    "name": "煎小罗非",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist106",
+    "name": "煎杂鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist103",
+    "name": "煎罗非",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist101",
+    "name": "煎鲈鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist078",
+    "name": "煎鲩鱼腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist097",
+    "name": "牛肉炒白萝卜",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,萝卜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist096",
+    "name": "牛肉炒芥兰",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,芥菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist081",
+    "name": "猪手醋",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪手,鸡蛋,米醋,糖",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist061",
+    "name": "生蒜炒鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist063",
+    "name": "白切鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist095",
+    "name": "白萝卜丝炒牛肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,萝卜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist094",
+    "name": "白萝卜炖牛腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,萝卜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist056",
+    "name": "盐摸鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist108",
+    "name": "盐焗虾",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "虾",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist055",
+    "name": "盐焗鸡",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist071",
+    "name": "竹笋炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist083",
+    "name": "紫苏炒脆肉鲩鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist087",
+    "name": "罗定鱼腐",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist064",
+    "name": "腐竹炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,腐竹",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist079",
+    "name": "腐竹焖鲩鱼腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉,腐竹",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist072",
+    "name": "茄子炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,茄子",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist067",
+    "name": "荷兰豆炒腊肠",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "荷兰豆,腊肠",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist089",
+    "name": "菜干蒸肉饼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist093",
+    "name": "萝卜炖牛腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,萝卜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist099",
+    "name": "葱姜炒牛百叶",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist104",
+    "name": "蒸小罗非",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist073",
+    "name": "蒸排骨",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "排骨",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist102",
+    "name": "蒸罗非",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist100",
+    "name": "蒸鲈鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist077",
+    "name": "蒸鲩鱼腩",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist098",
+    "name": "藕带炒牛肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,莲藕",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist090",
+    "name": "豆炸焖腩肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist091",
+    "name": "豆炸酿",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist065",
+    "name": "豆角炒肉",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,豆角",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist084",
+    "name": "青椒炒猪耳朵",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪杂,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist086",
+    "name": "青瓜炒罗定鱼腐",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "青瓜,鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist082",
+    "name": "香芹炒脆肉鲩鱼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "芹菜,鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist074",
+    "name": "香菇肉饼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,香菇",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist075",
+    "name": "马蹄肉饼",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist080",
+    "name": "鲩鱼腩焖腐竹",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼肉,腐竹",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist110",
+    "name": "黄金鱼蛋",
+    "cat": "meat",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鱼丸",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist152",
+    "name": "冬瓜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "冬瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist135",
+    "name": "凉拌青瓜木耳黄花菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "青瓜,木耳",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist146",
+    "name": "南瓜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "南瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist151",
+    "name": "土豆",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "土豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist119",
+    "name": "娃娃菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "白菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist128",
+    "name": "小白菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "白菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist143",
+    "name": "尖椒丝炒蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist142",
+    "name": "尖椒火腿炒蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,火腿,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist144",
+    "name": "尖椒炒蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist145",
+    "name": "尖椒煎蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist117",
+    "name": "捏水油麦菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "油麦菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist115",
+    "name": "捏水空心菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "空心菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist121",
+    "name": "捏水麦菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "油麦菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist154",
+    "name": "杏鲍菇炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist131",
+    "name": "水东芥菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "芥菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist122",
+    "name": "水麦菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "油麦菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist116",
+    "name": "油麦菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "油麦菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist161",
+    "name": "炸热狗",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist137",
+    "name": "煎盐水豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist118",
+    "name": "生菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "生菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist141",
+    "name": "番茄炒蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "番茄,鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist123",
+    "name": "皇帝菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "白菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist136",
+    "name": "盐水豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist114",
+    "name": "空心菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "空心菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist139",
+    "name": "红烧日本豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist148",
+    "name": "胡萝卜玉米炒瘦肉粒",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,胡萝卜,玉米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist149",
+    "name": "胡萝卜玉米炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,胡萝卜,玉米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist156",
+    "name": "腐竹木耳炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,腐竹,木耳",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist129",
+    "name": "芥兰",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "芥菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist130",
+    "name": "芥菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "芥菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist125",
+    "name": "苋菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "苋菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist147",
+    "name": "苦瓜酿",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "苦瓜,猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist126",
+    "name": "茼蒿",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "白菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist162",
+    "name": "荷兰豆炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,荷兰豆",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist150",
+    "name": "莴笋炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist127",
+    "name": "菜心",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "菜心",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist159",
+    "name": "葱花煎蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋,葱",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist163",
+    "name": "蒜薹炒腊肠",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肠",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist158",
+    "name": "蒸水蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist124",
+    "name": "西洋菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "西洋菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist157",
+    "name": "豆干炒腊肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist153",
+    "name": "酸辣土豆丝",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "土豆,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist133",
+    "name": "青瓜滚豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "青瓜,豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist132",
+    "name": "青瓜炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,青瓜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist134",
+    "name": "青瓜衮豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "青瓜,豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist160",
+    "name": "韭黄炒蛋",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "鸡蛋",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist138",
+    "name": "香煎盐水豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist140",
+    "name": "香煎红烧日本豆腐",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "豆腐",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist120",
+    "name": "香麦菜",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "油麦菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist155",
+    "name": "鸡腿菇炒肉",
+    "cat": "veg",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist164",
+    "name": "云吞",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,馄饨皮",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist167",
+    "name": "云吞（紫菜）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,紫菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist165",
+    "name": "云吞（纯肉）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist166",
+    "name": "云吞（香芹）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,芹菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist168",
+    "name": "云吞（香菇）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,香菇",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist177",
+    "name": "包子",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "面粉,猪肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist169",
+    "name": "捞粉",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "河粉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist183",
+    "name": "榨菜",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "榨菜",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist176",
+    "name": "油条",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "面粉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist171",
+    "name": "炒粉",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "河粉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist172",
+    "name": "炒面条",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "面条",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist048",
+    "name": "牛肉粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "牛肉,大米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist182",
+    "name": "玉米",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "玉米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist044",
+    "name": "瑶柱蚝士瘦肉粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,大米,贝类",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist181",
+    "name": "番薯",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "番薯",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist047",
+    "name": "瘦肉猪杂粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,猪杂,大米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist049",
+    "name": "白粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "大米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist170",
+    "name": "粉皮",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "河粉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist179",
+    "name": "芋头饭",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "大米,芋头",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist180",
+    "name": "芋头饭（香菇，腊肠，花生，热狗，芋头）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "大米,芋头,香菇,腊肠",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist174",
+    "name": "蒸饺",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,饺子皮",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist175",
+    "name": "蒸饺（国薯馅）",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "猪肉,饺子皮",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist045",
+    "name": "虾粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "虾,大米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist178",
+    "name": "豆浆",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist184",
+    "name": "豆豉鲮鱼",
+    "cat": "staple",
+    "meals": [
+      "breakfast"
+    ],
+    "ingredients": "鱼肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist173",
+    "name": "面条",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "面条",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist046",
+    "name": "鲜虾瘦肉粥",
+    "cat": "staple",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "虾,猪肉,大米",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist192",
+    "name": "尖椒炒腊肉",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist191",
+    "name": "尖椒炒腊肉腊肠",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉,腊肠,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist190",
+    "name": "瓜咸",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist188",
+    "name": "腊肉",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist189",
+    "name": "腊肉腊肠",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉,腊肠",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist187",
+    "name": "腊肠",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肠",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  },
+  {
+    "id": "hist193",
+    "name": "辣椒炒腊肉",
+    "cat": "other",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "ingredients": "腊肉,辣椒",
+    "qty": "",
+    "required": false,
+    "note": "来自历史菜谱导入",
+    "count": 0,
+    "source": "历史菜谱导入"
+  }
+]

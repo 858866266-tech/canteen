@@ -3264,6 +3264,11 @@ function closeCloudSyncModal(){
   setCloudToken(document.getElementById('cloudToken').value.trim());
   setCloudGistId(document.getElementById('cloudGistId').value.trim());
 }
+// 点击遮罩层关闭时也保存设置
+document.addEventListener('DOMContentLoaded',()=>{
+  const modal=document.getElementById('cloudSyncModal');
+  if(modal) modal.addEventListener('click',e=>{ if(e.target===modal) closeCloudSyncModal(); });
+});
 
 function updateCloudStatus(msg,type){
   const el=document.getElementById('cloudSyncStatus');
@@ -3377,7 +3382,7 @@ async function cloudPush(){
 
     // 同步保存到 localStorage
     saveData();
-    updateCloudStatus(`✅ 上传成功！${new Date().toLocaleTimeString('zh-CN')}`, 'success');
+    updateCloudStatus(`✅ 上传成功！${new Date().toLocaleTimeString('zh-CN')}<br><span style="font-size:11px;color:var(--gray-400)">Gist ID: ${result.id}</span><br><a href="${result.html_url}" target="_blank" style="font-size:11px;color:var(--primary)">在 GitHub 查看 →</a>`, 'success');
     updateFileStatusCloud();
 
   }catch(e){
@@ -4027,6 +4032,12 @@ async function init(){
 
   _lastSaveTime=new Date();
   updateSaveStatus();
+
+  // 检查是否已有云端配置，更新顶栏状态
+  if(getCloudGistId()){
+    document.getElementById('fileStatusText').textContent='☁️ 已同步';
+    document.getElementById('fileStatus').classList.add('ready');
+  }
 }
 
 

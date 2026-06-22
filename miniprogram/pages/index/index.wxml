@@ -1,0 +1,93 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 欢迎信息 -->
+  <view class="welcome-card">
+    <view class="welcome-content">
+      <text class="welcome-text">欢迎使用</text>
+      <text class="welcome-title">饭堂管理系统</text>
+      <text class="welcome-date">{{currentDate}}</text>
+    </view>
+    <view class="welcome-icon">🍽️</view>
+  </view>
+
+  <!-- 统计概览 -->
+  <view class="stats-grid">
+    <view class="stat-card" bindtap="goToPage" data-page="menu">
+      <view class="stat-value">{{stats.dishCount}}</view>
+      <view class="stat-label">菜品总数</view>
+    </view>
+    <view class="stat-card" bindtap="goToPage" data-page="dishes">
+      <view class="stat-value">{{stats.weekCount}}</view>
+      <view class="stat-label">已排菜谱</view>
+    </view>
+    <view class="stat-card" bindtap="goToPage" data-page="purchase">
+      <view class="stat-value">{{stats.purchaseCount}}</view>
+      <view class="stat-label">采购项</view>
+    </view>
+    <view class="stat-card" bindtap="goToPage" data-page="stats">
+      <view class="stat-value">{{stats.completionRate}}%</view>
+      <view class="stat-label">完成率</view>
+    </view>
+  </view>
+
+  <!-- 今日菜谱预览 -->
+  <view class="card">
+    <view class="card-title">
+      <text>📅 今日菜谱</text>
+      <text class="card-subtitle" bindtap="goToPage" data-page="menu">查看全部 ></text>
+    </view>
+    <view wx:if="{{todayMenu.length > 0}}">
+      <view class="menu-item" wx:for="{{todayMenu}}" wx:key="index">
+        <view class="menu-meal">{{item.meal}}</view>
+        <view class="menu-dishes">{{item.dishes}}</view>
+      </view>
+    </view>
+    <view wx:else class="empty-state">
+      <text class="empty-icon">🍽️</text>
+      <text class="empty-text">今日菜谱尚未安排</text>
+      <button class="btn btn-primary" bindtap="goToPage" data-page="menu" style="margin-top: 20rpx;">
+        去安排菜谱
+      </button>
+    </view>
+  </view>
+
+  <!-- 快捷操作 -->
+  <view class="card">
+    <view class="card-title">⚡ 快捷操作</view>
+    <view class="quick-actions">
+      <view class="action-item" bindtap="goToPage" data-page="menu">
+        <view class="action-icon">📅</view>
+        <text class="action-text">排菜</text>
+      </view>
+      <view class="action-item" bindtap="goToPage" data-page="dishes">
+        <view class="action-icon">🥘</view>
+        <text class="action-text">菜品</text>
+      </view>
+      <view class="action-item" bindtap="goToPage" data-page="purchase">
+        <view class="action-icon">🛒</view>
+        <text class="action-text">采购</text>
+      </view>
+      <view class="action-item" bindtap="goToPage" data-page="stats">
+        <view class="action-icon">📊</view>
+        <text class="action-text">统计</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 最近活动 -->
+  <view class="card">
+    <view class="card-title">📋 最近活动</view>
+    <view wx:if="{{recentActivities.length > 0}}">
+      <view class="activity-item" wx:for="{{recentActivities}}" wx:key="index">
+        <view class="activity-icon">{{item.icon}}</view>
+        <view class="activity-content">
+          <text class="activity-text">{{item.text}}</text>
+          <text class="activity-time">{{item.time}}</text>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="empty-state">
+      <text class="empty-text">暂无最近活动</text>
+    </view>
+  </view>
+</view>

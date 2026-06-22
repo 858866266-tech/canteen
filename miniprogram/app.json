@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/dishes/dishes",
+    "pages/purchase/purchase",
+    "pages/stats/stats",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4f46e5",
+    "navigationBarTitleText": "饭堂管理系统",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f0f4ff"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#4f46e5",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜谱",
+        "iconPath": "images/menu.png",
+        "selectedIconPath": "images/menu-active.png"
+      },
+      {
+        "pagePath": "pages/dishes/dishes",
+        "text": "菜品",
+        "iconPath": "images/dishes.png",
+        "selectedIconPath": "images/dishes-active.png"
+      },
+      {
+        "pagePath": "pages/purchase/purchase",
+        "text": "采购",
+        "iconPath": "images/purchase.png",
+        "selectedIconPath": "images/purchase-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,23 @@
+<!-- 菜品管理页面 -->
+<view class="container">
+  <view class="search-bar">
+    <input class="search-input" placeholder="搜索菜品..." bindinput="onSearch" />
+  </view>
+
+  <view class="category-tabs">
+    <view class="tab {{currentCategory === 'all' ? 'active' : ''}}" bindtap="changeCategory" data-category="all">全部</view>
+    <view class="tab {{currentCategory === 'main' ? 'active' : ''}}" bindtap="changeCategory" data-category="main">主菜</view>
+    <view class="tab {{currentCategory === 'side' ? 'active' : ''}}" bindtap="changeCategory" data-category="side">配菜</view>
+    <view class="tab {{currentCategory === 'soup' ? 'active' : ''}}" bindtap="changeCategory" data-category="soup">汤类</view>
+  </view>
+
+  <view class="dish-list">
+    <view class="dish-card" wx:for="{{filteredDishes}}" wx:key="id" bindtap="viewDish" data-id="{{item.id}}">
+      <view class="dish-name">{{item.name}}</view>
+      <view class="dish-category">{{item.category}}</view>
+      <view class="dish-ingredients">{{item.ingredients}}</view>
+    </view>
+  </view>
+
+  <button class="btn btn-primary add-btn" bindtap="addDish">➕ 添加菜品</button>
+</view>

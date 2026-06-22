@@ -1,0 +1,57 @@
+<!-- 菜谱页面 -->
+<view class="container">
+  <view class="week-selector">
+    <text class="week-label">{{weekLabel}}</text>
+    <view class="week-nav">
+      <button class="nav-btn" bindtap="prevWeek">◀</button>
+      <button class="nav-btn current" bindtap="goToThisWeek">本周</button>
+      <button class="nav-btn" bindtap="nextWeek">▶</button>
+    </view>
+  </view>
+
+  <view class="menu-grid">
+    <view class="menu-header">
+      <view class="header-cell"></view>
+      <view class="header-cell">周一</view>
+      <view class="header-cell">周二</view>
+      <view class="header-cell">周三</view>
+      <view class="header-cell">周四</view>
+      <view class="header-cell">周五</view>
+    </view>
+
+    <!-- 早餐 -->
+    <view class="menu-row">
+      <view class="meal-label">☀️ 早餐</view>
+      <view class="meal-cell" wx:for="{{days}}" wx:key="index" data-day="{{item}}" data-meal="breakfast" bindtap="addDish">
+        <view wx:for="{{weekMenu[item]}}" wx:if="{{item.meal === 'breakfast'}}" wx:key="index">
+          <text>{{item.name}}</text>
+        </view>
+        <text wx:if="{{!weekMenu[item] || weekMenu[item].length === 0}}" class="empty">+ 添加</text>
+      </view>
+    </view>
+
+    <!-- 午餐 -->
+    <view class="menu-row">
+      <view class="meal-label">🍱 午餐</view>
+      <view class="meal-cell" wx:for="{{days}}" wx:key="index" data-day="{{item}}" data-meal="lunch" bindtap="addDish">
+        <view wx:for="{{weekMenu[item]}}" wx:if="{{item.meal === 'lunch'}}" wx:key="index">
+          <text>{{item.name}}</text>
+        </view>
+        <text wx:if="{{!weekMenu[item] || weekMenu[item].length === 0}}" class="empty">+ 添加</text>
+      </view>
+    </view>
+
+    <!-- 晚餐 -->
+    <view class="menu-row">
+      <view class="meal-label">🌙 晚餐</view>
+      <view class="meal-cell" wx:for="{{days}}" wx:key="index" data-day="{{item}}" data-meal="dinner" bindtap="addDish">
+        <view wx:for="{{weekMenu[item]}}" wx:if="{{item.meal === 'dinner'}}" wx:key="index">
+          <text>{{item.name}}</text>
+        </view>
+        <text wx:if="{{!weekMenu[item] || weekMenu[item].length === 0}}" class="empty">+ 添加</text>
+      </view>
+    </view>
+  </view>
+
+  <button class="btn btn-primary save-btn" bindtap="saveMenu">💾 保存菜谱</button>
+</view>

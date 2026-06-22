@@ -1,0 +1,30 @@
+<!-- 采购清单页面 -->
+<view class="container">
+  <view class="stats-bar">
+    <view class="stat-item">
+      <text class="stat-num">{{pendingCount}}</text>
+      <text class="stat-text">待采购</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{completedCount}}</text>
+      <text class="stat-text">已完成</text>
+    </view>
+  </view>
+
+  <view class="purchase-list">
+    <view class="purchase-item {{item.status === 'completed' ? 'completed' : ''}}" 
+          wx:for="{{purchaseList}}" 
+          wx:key="id"
+          bindtap="toggleItem" 
+          data-id="{{item.id}}">
+      <view class="check-icon">{{item.status === 'completed' ? '✓' : ''}}</view>
+      <view class="item-content">
+        <view class="item-name">{{item.name}}</view>
+        <view class="item-qty">{{item.quantity}}</view>
+      </view>
+      <view class="item-delete" catchtap="deleteItem" data-id="{{item.id}}">🗑️</view>
+    </view>
+  </view>
+
+  <button class="btn btn-primary add-btn" bindtap="addPurchase">➕ 添加采购项</button>
+</view>

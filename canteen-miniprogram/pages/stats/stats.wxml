@@ -1,0 +1,40 @@
+<!-- 统计页面 -->
+<view class="container">
+  <view class="stats-overview">
+    <view class="stat-card">
+      <view class="stat-icon">📅</view>
+      <view class="stat-info">
+        <view class="stat-num">{{totalWeeks}}</view>
+        <view class="stat-label">已排周数</view>
+      </view>
+    </view>
+    <view class="stat-card">
+      <view class="stat-icon">🥘</view>
+      <view class="stat-info">
+        <view class="stat-num">{{totalDishes}}</view>
+        <view class="stat-label">菜品总数</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">🏆 热门菜品 Top 10</view>
+    <view class="ranking-list">
+      <view class="ranking-item" wx:for="{{topDishes}}" wx:key="index">
+        <text class="ranking-num">{{index + 1}}</text>
+        <text class="ranking-name">{{item.name}}</text>
+        <text class="ranking-count">{{item.count}}次</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">📊 分类分布</view>
+    <view class="category-list">
+      <view class="category-item" wx:for="{{categoryStats}}" wx:key="name">
+        <text>{{item.name}}</text>
+        <text>{{item.count}}道</text>
+      </view>
+    </view>
+  </view>
+</view>
